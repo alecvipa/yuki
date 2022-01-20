@@ -35,10 +35,15 @@ app.get('/', function (req, res) {
     res.render('inicio')
 
 });
-app.get('/:params?', function (req, res) {
-    var params = req.params.params;
-    res.render(params);
-})
+app.get('/inicio', function (req, res) {
+    res.render('inicio')
+
+});
+app.get('/privacidad', function (req, res) {
+    res.render('privacidad')
+
+});
+
 
 
 // Nodemailer route

@@ -1,0 +1,30 @@
+.video1 {
+    height: 100%;
+    width: 100%;
+
+}
+.video2 {
+    height: 100%;
+    width: 100%;
+
+}
+  
+header .container {
+    position: relative;
+    z-index: 2;
+}
+.inicioDiv{
+    height: 45rem;
+}
+  
+@media(min-width:992px){
+    .video2{
+        display: none;
+    }
+}
+@media(max-width:991px){
+    .video1 {
+        display: none;
+    
+    }
+}
