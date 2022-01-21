@@ -16,6 +16,25 @@ header .container {
 .inicioDiv{
     height: 45rem;
 }
+.fonts{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.aboutSectionBoot{
+    height: 20rem;
+    padding-top: 4%;
+    background-color: #e1f4fa;
+}
+.btnAbout{
+    border-radius: 25px;
+}
+.textBlueDeep{
+    color: #043474 !important;
+}
   
 @media(min-width:992px){
     .video2{
@@ -23,6 +42,13 @@ header .container {
     }
 }
 @media(max-width:991px){
+    .aboutSectionBoot{
+        height: 23rem;
+        padding-top: 5%;
+    }
+    .inicioDiv{
+        height: 46rem;
+    }
     .video1 {
         display: none;
     
