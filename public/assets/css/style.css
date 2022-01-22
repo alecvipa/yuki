@@ -8,6 +8,9 @@
     width: 100%;
 
 }
+.boldSete{
+    font-weight: 700;
+}
   
 header .container {
     position: relative;
@@ -27,13 +30,25 @@ header .container {
 .aboutSectionBoot{
     height: 20rem;
     padding-top: 4%;
-    background-color: #e1f4fa;
+    /* background-color: #e1f4fa; */
 }
 .btnAbout{
     border-radius: 25px;
 }
 .textBlueDeep{
     color: #043474 !important;
+}
+.almacenVisionMision{
+
+    height: 14rem;
+    background-image: url("/assets/images/almacen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;
+    transition: 0s linear; */
+    background-position: 25% 85%;
+    padding-top: 3%;
 }
   
 @media(min-width:992px){
@@ -42,12 +57,19 @@ header .container {
     }
 }
 @media(max-width:991px){
+    .almacenVisionMision{
+
+        height: 23rem;
+        background-image: url("/assets/images/almacenStory.jpg");
+        padding-top: 10%;
+    }
     .aboutSectionBoot{
         height: 23rem;
         padding-top: 5%;
+        margin-top: -5%;
     }
     .inicioDiv{
-        height: 46rem;
+        height: 48rem;
     }
     .video1 {
         display: none;
