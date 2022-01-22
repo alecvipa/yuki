@@ -50,6 +50,9 @@ header .container {
     background-position: 25% 85%;
     padding-top: 3%;
 }
+.textApoyo{
+    text-align: right;
+}
   
 @media(min-width:992px){
     .video2{
@@ -57,6 +60,12 @@ header .container {
     }
 }
 @media(max-width:991px){
+    .listApoyo{
+        margin-bottom: 10%;
+    }
+    .textApoyo{
+        text-align: center;
+    }
     .almacenVisionMision{
 
         height: 23rem;
