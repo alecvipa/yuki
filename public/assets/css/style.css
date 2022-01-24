@@ -32,11 +32,19 @@ header .container {
     padding-top: 4%;
     /* background-color: #e1f4fa; */
 }
+.aboutSectionBoot2{
+    height: 18rem;
+    padding-top: 4%;
+    /* background-color: #e1f4fa; */
+}
 .btnAbout{
     border-radius: 25px;
 }
 .textBlueDeep{
     color: #043474 !important;
+}
+.bridgeServicios{
+    background-color: #04A4D0;
 }
 .almacenVisionMision{
 
@@ -50,16 +58,45 @@ header .container {
     background-position: 25% 85%;
     padding-top: 3%;
 }
+
 .textApoyo{
     text-align: right;
 }
+.privacidadBanner{
+    height: 40rem;
+    background-image: url("/assets/images/privacidadImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
   
+}
+.privacidadTitle{
+    margin-top: 50%;
+    color: white;
+    font-weight: 700;
+}
+
 @media(min-width:992px){
     .video2{
         display: none;
     }
+    .serviciosTuki{
+        font-size: 3rem;
+    }
 }
 @media(max-width:991px){
+    .privacidadBanner{
+        height: 35rem;
+        margin-bottom: 10%;
+        
+    }
+    .marginCard{
+        margin-top: 15%;
+    }
+    .serviceCard{
+        margin-left: 8%;
+    }
     .listApoyo{
         margin-bottom: 10%;
     }
@@ -74,6 +111,11 @@ header .container {
     }
     .aboutSectionBoot{
         height: 23rem;
+        padding-top: 5%;
+        margin-top: -5%;
+    }
+    .aboutSectionBoot2{
+        height: 17rem;
         padding-top: 5%;
         margin-top: -5%;
     }
