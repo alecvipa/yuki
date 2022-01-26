@@ -312,5 +312,35 @@
                 </div>
             </div>
         </div>
-
     </div>
+</div>
+<div class="contacto" style="background-color: #6fa8dd;" id="contacto">
+    <div class="container">
+        <h4>"Déjanos tus datos y en breve te contactaremos"</h4> <br>
+        <form action="/ajax/email" method="POST" onsubmit="return submitEmailForm(this);" id="myForm">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Nombre</label>
+                <input name="name" type="text" class="form-control formInput" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Correo electrónico</label>
+                <input name="email" type="text" class="form-control formInput" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Número celular</label>
+                <input name="number" type="text" class="form-control formInput" id="exampleInputPassword1" placeholder="Número celular" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Mensaje</label>
+                <input name="message" type="text" class="form-control formInput" id="exampleInputPassword1" placeholder="¿En qué servicio estás interesado?" required>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input formInput" id="exampleCheck1" required>
+                <label class="form-check-label" for="exampleCheck1">Acepto política de privacidad</label>
+            </div> <br>
+            <button type="submit" class="btn btn-light">Enviar</button>
+        </form>
+    </div>
+</div>

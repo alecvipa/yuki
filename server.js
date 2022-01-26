@@ -64,11 +64,11 @@ app.post("/ajax/email", function (request, response) {
     });
 
     
-    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number} </p><p>Día de llegada: ${request.body.date}</p><p>Número de días: ${request.body.secondate}</p>`;
+    var htmlBody = `<h2>Contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number} </p><p>Mensaje: ${request.body.message}</p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
-        to: 'kaak_naab@hotmail.com',
-        subject: '¡Alguien ha dejado sus datos en kaabnaab.com!',
+        to: 'hebrit_626@hotmail.com',
+        subject: '¡Alguien ha dejado sus datos en YUKI!',
         html: htmlBody
     };
     transporter.sendMail(mail, function (err, info) {

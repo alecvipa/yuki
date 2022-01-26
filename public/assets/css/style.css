@@ -76,6 +76,12 @@ header .container {
     color: white;
     font-weight: 700;
 }
+.contacto{
+    height: 40rem;
+    margin-top: 5%;
+    padding-top: 5%;
+    color: white;
+}
 
 @media(min-width:992px){
     .video2{
