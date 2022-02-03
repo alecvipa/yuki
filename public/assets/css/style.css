@@ -84,11 +84,17 @@ header .container {
 }
 
 @media(min-width:992px){
+    .textParaComer{
+        font-size: 18px;
+    }
     .video2{
         display: none;
     }
     .serviciosTuki{
         font-size: 3rem;
+    }
+    .sloganPara{
+        font-size: 24px;
     }
 }
 @media(max-width:991px){
@@ -116,7 +122,7 @@ header .container {
         padding-top: 10%;
     }
     .aboutSectionBoot{
-        height: 23rem;
+        height: 25rem;
         padding-top: 5%;
         margin-top: -5%;
     }
