@@ -25,7 +25,7 @@ app.engine("handlebars", exphbs.engine({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Redirect to https://xyncs.com
-const targetBaseUrl = 'http://www.yukimportaciones.com/inicio';
+const targetBaseUrl = 'http://www.importacionesyuky.com/inicio';
 
 
 
