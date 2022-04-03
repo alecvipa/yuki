@@ -67,7 +67,7 @@ app.post("/ajax/email", function (request, response) {
     var htmlBody = `<h2>Contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number} </p><p>Mensaje: ${request.body.message}</p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
-        to: 'hebrit_626@hotmail.com',
+        to: 'atencion@importacionesyuky.com',
         subject: '¡Alguien ha dejado sus datos en YUKI!',
         html: htmlBody
     };
